@@ -49,11 +49,21 @@ The Node.js/SQLite backend can run on any server — no vendor lock-in. Models a
 - Build mode (VR): place and reposition cubes in 3D space for quick spatial sketching
 - Occlusion culling configured per-model to keep frame rates acceptable on standalone Android hardware
 
+| Build Mode (DemoCubes) | Color-coded status | Load at runtime (lamppost) |
+|---|---|---|
+| <img width="338" height="320" alt="image" src="https://github.com/user-attachments/assets/0d3be665-014f-422e-93ce-2beaae281266" /> | <img width="463" height="343" alt="image" src="https://github.com/user-attachments/assets/87f97788-ec39-4cb0-9f23-288a7996f765" />  | <img width="437" height="436" alt="image" src="https://github.com/user-attachments/assets/01f92b85-fce7-4a77-b4eb-8af37747315a" />|
+
+
 ### Annotations
 - Create annotations attached to specific model components
 - Annotations appear as floating buttons in 3D space at the saved position
 - Annotation list sorted by creation time (newest first)
 - Accessible from both AR and VR clients
+
+| Attached annotations | List of changes |
+|---|---|
+| <img width="205" height="183" alt="image" src="https://github.com/user-attachments/assets/1a59e391-eca5-4b30-a3a7-b7ff87c2136d" /> | <img width="205" height="146" alt="image" src="https://github.com/user-attachments/assets/a249e1fc-105b-4981-b71c-8b8e7cd7d1f0" /> | 
+
 
 ### Communication
 - **Voice chat** via Unity Vivox SDK — no separate server to maintain
